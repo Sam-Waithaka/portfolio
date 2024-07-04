@@ -56,9 +56,9 @@ function Hero() {
         Build dreams, design with passion, code with precision, and invent the future. 
         Every step you take in tech crafts a world of endless possibilities. Dare to create and inspire.
         </p>
-        <a href={CV} download>
+        {/* <a href={CV} download>
           <button className="hover">Resume</button>
-        </a>
+        </a> */}
       </div>
     </section>
   );
