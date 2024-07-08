@@ -3,7 +3,8 @@ import ReactJS from '../../assets/react JS.jpg';
 import school from '../../assets/school.jpg';
 import BookMarks from '../../assets/BookMarks.jpg';
 import blog from '../../assets/blog.jpg';
-import ProjectCard from '../../common/ProjectCard';
+import ProjectCard from '../../common/ProjectCard'
+import imageQuest from '../../assets/image_quest.jpeg'
 
 function Projects() {
   return (
@@ -15,6 +16,12 @@ function Projects() {
           link="https://github.com/Sam-Waithaka/portfolio"
           h3="Portfolio "
           p="This Portfolio project"
+        />
+        <ProjectCard
+          src={imageQuest}
+          link="https://imagequests.netlify.app/"
+          h3="Image Quest "
+          p="Unsplash API with Vanila JS"
         />
         <ProjectCard
           src={school}
