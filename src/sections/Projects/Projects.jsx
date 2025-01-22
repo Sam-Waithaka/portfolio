@@ -25,7 +25,7 @@ function Projects() {
         />
         <ProjectCard
           src={school}
-          link="https://github.com/Sam-Waithaka/school-demo.git"
+          link="https://github.com/Sam-Waithaka/EduManage-Pro"
           h3="EduManage Pro"
           p="School System"
         />
